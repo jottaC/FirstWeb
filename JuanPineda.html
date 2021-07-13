@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=devide-width">
+	<title>MailWeb</title>
+	<link rel="icon" type="text/css" href="mail2.ico">
+	<link rel="stylesheet" type="text/css" href="Estilos/estilo.css">
+	<meta name="Author" content="Juan Pineda">
+	<meta name="Copyright" content="JDEV&CO">
+
+</head>
+<body>
+	<header class="top">
+		<img src="mailcom.png" width="300" height="150">
+	</header>
+
+		<h1 class="titulo" id="tg"><b>Create your free Email Account</b></h1>
+
+			<form>
+				<h4 class="personal" id="person">PERSONAL INFORMATION</h4>
+				<fieldset class="persona">
+			            Gender * <label for="male" class="male">Male</label> 
+					 		     <input type="radio" id="male" name="gender" value="male">
+					 		     <label for="female">Female</label>
+					 		     <input type="radio" id="female" name="gender" value="female"><br>
+					    First Name * <input type="text" id="firstn "name="firstna" value=""><br>
+					    Last Name *  <input type="text" name="lastna" id="lastn"><br>
+					    Date of Birth * <input type="date" id="date" name=""> <label class="pgdate">(Ex. may/23/1973)</label> <br>
+					    Country * <select name="country" id="countries">
+					    		     <option value="Canada">Canada</option>
+					    		     <option value="Estados unidos">Estados Unidos</option>
+					    		     <option value="Mexico">Mexico</option>
+					    		     <option value="Guatemala">Guatemala</option>
+					    		     <option value="Belice">Belice</option>
+					    		     <option value="Honduras">Honduras</option>
+					    		     <option value="El Salvador">El Salvador</option>
+					    		     <option value="Nicaragua">Nicaragua</option>
+					    		     <option value="CostaRica">Costa Rica</option>
+					    		     <option value="Panama">Panama</option>
+					    		  </select>	
+				</fieldset>	
+
+				<h4 class="check" id="available">CHECK AVAILABILITY</h4>
+					<fieldset class="checkav">
+							<p class="pgemail">Enter your desire email address if your choice is no <br>longer available, we will suggest a few alternatives based on<br>your first name, last name and birthday</p><br><br>
+							Desired Email Address * <input type="text" name="">@<select name="mails" id="mail">
+													    <option value="mail">mail.com</option>
+												      	<option value="gmail">gmail.com</option>
+													    <option value="outlook">outlook.com</option>	
+													</select><br>
+								<p class="pgmail">Example: "John Doe" or "Superman" minimum of 3 characters / numbers</p><br>				
+							<button type="button" class="btcheck">Check Availability</button><br>
+					</fieldset> 
+
+				<h4 class="password" id="pass">DEFINE YOUR PASSWORD</h4>
+					<fieldset class="passw">
+							<p class="pgpass">Enter a contact email address different from your new mail.com address. <br>This and the security question helps you recoverer your password in case you ever forget it.</p><br><br>
+						Contact Email * <input type="text" name="contactemail"><br><br>
+						Security Question * <select name="question" id="questions">
+													<option value="ChooseOne">Choose One</option>
+													<option value="dog">De que Color era tu primer perro?</option>
+													<option value="apodo">Cual era tu apodo de niño?</option>
+													<option value="coche">Que marca es tu coche?</option>
+											</select><br><br>
+						Your Answer * <input type="text" name="answer">	
+					</fieldset>
+
+				<h4 class="registration" id="reg"> VERIFY YOUR REGISTRATION</h4>
+					<fieldset class="regis">
+							<p class="pgreg">For security reasons please eneter the code shown in the picture below. <br>This is to ensure that a person, not an automated program, is creating this account.</p><br><br><br>
+							
+							Enter the code shown * <input type="text" name="" class="txtreg">
+							<p class="pgfields">* Fields required to complete registration.</p>
+							<p class="pgterms">The <a href="terms.html" target="_blank">Terms & Conditions</a> of mail.com apply. Please review these and confirm your acceptance.</p>
+
+					</fieldset>
+					<br><br>
+			<div>
+				<button class="btaceptar">I Accept. Create My Account</button>
+			</div>		
+				<br><br>
+
+			</form>
+
+			<footer>
+				<fieldset class="fondo">
+						<img src="1&1.png" width="70" height="50" class="img"><p class="pgfoot">©2021 1&1 Mail & Media Inc. All Rights reserved.</p>
+
+				</fieldset>
+				
+
+			</footer>
+
+</body>
+</html>

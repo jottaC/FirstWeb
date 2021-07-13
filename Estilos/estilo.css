@@ -1,0 +1,148 @@
+body{
+	font-family: Arial;
+	background-color: rgb(255,255,255);
+
+}
+
+.personal{
+	color: rgb(84,133,166);	
+}
+
+.check{
+	color: rgb(84,133,166);
+}
+
+.password{
+	color: rgb(84,133,166);
+}
+
+.registration{
+	color: rgb(84,133,166);
+}
+
+.persona{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.checkav{
+	text-align: center;
+}
+
+.passw{
+	text-align: center;
+}
+
+.btaceptar{
+		background-color: rgb(50,186,55);
+		border-radius: 4px;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: flex;
+		justify-content: center;
+		font-size: 16px;
+		margin-right: auto;
+		margin-left:auto ;
+}
+
+.btcheck{
+		background-color: rgb(142,162,142);
+		border-radius: 4px;
+		color: black;
+		padding: 10px 22px;
+		font-size: 18px;
+}
+
+.persona{
+		border-bottom: none;
+		border-right: none;
+		border-left: none;
+}
+
+.checkav{
+		border-bottom: none;
+		border-right: none;
+		border-left: none;
+}
+
+.passw{
+		border-bottom: none;
+		border-right: none;
+		border-left: none;
+}
+
+.regis{
+		border-bottom: none;
+		border-right: none;
+		border-left: none;
+		text-align: center;
+}
+
+.pgemail{
+		color: gray;
+}
+
+.pgpass{
+		color: gray;
+		text-align: center;
+}
+
+.pgreg{
+		color: gray;
+		text-align: center;
+}
+
+.txtreg{
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+.pgmail{
+		text-align: center;
+		color: gray;
+}
+
+.fondo{
+		border-top: black;
+		border-right: none;
+		border-left: none;
+		border-bottom: none;
+		text-align: left;
+		margin-left: auto;
+}
+
+.img{
+	display: flex;
+	margin-right: auto;
+	justify-content:legacy left;
+	
+
+}
+
+.pgfoot{
+		text-align: left;
+}
+
+.top{
+	background-image: linear-gradient(to right, rgba(0,0,255,0), rgba(0,0,255,1));
+}
+
+.pgdate{
+	color: gray;
+}
+
+.pgfields{
+	color: gray;
+}
+
+.pgterms{
+	color: gray;
+}
+
+.bterms{
+	color: blue;
+}
